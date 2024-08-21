@@ -1,0 +1,120 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+.middlediv {
+    width: 50%;
+    margin: 30px auto;
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #dedede;
+	box-shadow: 0px 3px 5px #ececec;
+}
+
+.middlediv h2, .middlediv h5 {
+	text-align:center;
+}
+
+.navigation {
+	margin-top: 40px;	
+}
+
+.navigation ul{
+	margin:0px;
+	padding:0px;
+	border-bottom:1px solid #ccc;
+}
+
+.navigation ul li{
+	display: inline-block;
+    margin-right: 40px;
+    text-align: center;	
+	padding: 10px 0px;
+}
+
+.navigation ul li a {
+	text-decoration:none;
+	color:inherit;
+}
+
+.middlecontent {
+	margin-top: 20px;
+}
+
+.wideselect {
+	width:100%;
+}
+
+.selectedli {
+	border-bottom: 4px solid blue;
+}
+
+.logindiv {
+	width: 50%;
+    margin: 100px auto;
+}
+
+.logininputs {
+	margin-top:45px;
+}
+
+.su_wrong {
+	text-align: center;
+    background: pink;
+    padding: 12px;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+}
+
+.su_correct {
+	text-align: center;
+    background: #c0ffeb;
+    padding: 12px;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+}
+
+.stats {
+	background: pink;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.schooldiv {
+	padding: 10px 0px;
+    border: 3px dashed #ccc;
+	background: #e4e2e2;
+}
+
+.schooldiv button {
+	width: 97.5%;
+    margin: 13px auto 0px;
+}
+
+.schooldiv h6 {
+	text-align:left !important;
+}
+
+.listtable {
+	overflow:auto;
+}
+
+@media only screen and (max-width: 1400px) {
+	.middlediv {
+		width:100%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.logindiv {
+		width:100%;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	.middlediv {
+		width:80%;
+	}
+}

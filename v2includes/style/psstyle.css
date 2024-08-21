@@ -1,0 +1,133 @@
+.approvedps_tbl {
+    min-height: 579px;
+    background: #dedede;
+    border: 1px solid #c3c3c3;
+}
+
+.approvedps_tbl table {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 3px 3px #c3c3c3;
+}
+
+.approvedps_tbl table th,
+.approvedps_tbl table td {
+	border: 1px solid #cacaca;
+	padding: 5px 9px;
+}
+
+.approvedps_tbl table td {
+	padding:8px 10px;
+}
+
+.approvedps_tbl table th {
+	background: #e8e8e8;
+}
+
+.approvedps_tbl table th:first-child,
+.approvedps_tbl table td:first-child{
+	width:4%;
+	text-align:center;
+}
+
+.approvedps_tbl table th:nth-child(2),
+.approvedps_tbl table td:nth-child(2){
+	width: 400px;
+}
+
+.approvedps_tbl table th:nth-child(4),
+.approvedps_tbl table td:nth-child(4){
+	width: 200px;
+}
+
+.approvedps_tbl table th:nth-child(3),
+.approvedps_tbl table td:nth-child(3){
+	width: 200px;
+}
+
+.approvedps_tbl table th:nth-child(5),
+.approvedps_tbl table td:nth-child(5),
+.approvedps_tbl table th:nth-child(6),
+.approvedps_tbl table td:nth-child(6){
+	width: 125px;
+	text-align:center;
+}
+    
+.approvedps_tbl table tr:nth-child(even) {
+	background: #f1f1f1;
+}
+
+.approvedps_tbl table tr:hover {
+	cursor:pointer;
+	background:#f1f1f1;
+}
+
+.modaltbl {
+	width:100%; 
+}
+
+.modaltbl tr td  {
+	border: 1px solid #ccc;
+}
+
+.modaltbl tr td {
+	
+}
+
+.modaltbl tr td:nth-child(2),
+.modaltbl tr td:nth-child(1) {
+	width:150px;
+	padding:10px;
+}
+
+.modaltbl tr td input[type='text'] {
+	width:100%;
+	border:0px;
+	    padding: 10px;
+}
+
+.modaltbl tr td input[type='text']:focus {
+	outline:none;
+box-shadow: 0px 0px 10px #929494;
+	position:relative;
+	z-index:100000;
+}
+
+.modaltbl tr th {
+	border: 1px solid #ccc;
+	padding:5px;
+}
+
+.htext {
+	    margin: 0px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    background: #bde7ff;
+	display:none;
+}
+
+.htext input[type='text'] {
+	    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-weight: normal;
+    margin-left: 8px;
+    width: 400px;
+}
+
+.btnsearchps {
+	margin-top: -4px;
+}
+
+#showntr {
+	background:#def0fb;
+}
+
+.rem_text {
+	padding: 4px 2px;
+}
+
+#textsearch {
+	text-transform:uppercase;
+}

@@ -1,0 +1,352 @@
+.employ_cat {
+	padding: 10px;
+    background: #e4e4e4;
+}
+
+.review_cont {
+/*padding: 7px 6px 6px 6px; */
+    background: #e6e6e6;
+    max-height: 750px;
+	min-height: 750px;
+    width: 99%;
+    margin: auto;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+}
+
+.review_cont h4 {
+	margin:0px;
+}
+
+.ulheader {
+	margin: 0px 7px;
+	padding:0px;
+}
+
+#listofpeople {
+	    margin: 0px;
+    padding: 0px;
+}
+
+#listofpeople li , .ulheader li {
+    list-style: none;
+    /* width: 300px; */
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #e6e6e6;
+    background: #fff;
+    float: left;
+    display: inline-block;
+    padding: 0px;
+    /* max-height: 90px; */
+    margin-right: 5px;
+    margin-top: -1px;
+    text-align: left;
+    /* margin-bottom: 5px; */
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+}
+
+.tblheader {
+	width:100%;
+}
+
+.tblheader tr, .ulheader li table tr {
+	
+}
+
+.tblheader tr td, .ulheader li table tr td{
+	    padding: 7px;
+    text-align: center !important;
+    font-weight: bold;
+    text-transform: uppercase;
+	    width: 25%;
+    /*background: #fff; */
+}
+
+#listofpeople li table {
+	width:100%;
+}
+
+#listofpeople li table td {
+	width:25%;
+}
+
+.searchli {
+    /* float: right !important; */
+    /* background: #dbf1fd; */
+    padding: 3px 8px !important;
+    border: none !important;
+    margin-left: 11px;
+}
+
+.searchli input[type='text'] {
+    padding: 3px 27px 3px 3px;
+    border-radius: 3px;
+    border: 1px solid #bbd2de;
+}
+
+#listofpeople li table td:first-child {
+	text-align:left;
+}
+#listofpeople li p {
+	margin:0px;
+}
+
+.thefname {
+	    font-size: 15px;
+		    background: #3c8dbc;
+    text-align: left;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+#listofpeople li:hover {
+	cursor:pointer;
+	background: #d6f0ff;
+}
+
+.forreviewul {
+    padding: 0px;
+    overflow: hidden;
+    margin: 8px 0px -1px 18px;
+}
+
+.forreviewul li{
+    float: left;
+    display: inline-block;
+    padding: 7px 13px;
+    margin-right: 3px;
+    border-radius: 3px 3px 0px 0px;
+	    color: #928e8e;
+		border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.forreviewul li a {
+	 color: #928e8e;
+}
+
+.forreviewul li ul {
+display: none;
+position: fixed;
+    z-index: 1000;
+    background: #fff;
+    padding: 0px;
+    margin-left: -14px;
+    border-right: 1px solid #adabab;
+    border-left: 1px solid #adabab;
+    border-top: 1px solid #adabab;
+    box-shadow: 0px 3px 3px #c7c7c7;
+	
+	max-height: 35%;
+    overflow: auto;
+}
+
+.forreviewul li ul li {
+    float: none !important;
+    display: block;
+    margin: 0px;
+    border: none;
+    border-bottom: 1px solid #bfbebe;
+    padding: 10px 40px;
+    font-weight: normal;
+}
+
+.forreviewul li:hover > ul {
+	display:block;
+}
+
+.forreviewul li:hover {
+	cursor:pointer;
+background: #cacaca;
+    color: #353333;
+}
+
+.forreviewul li p {
+	margin-bottom: 4px;
+}
+
+.selectedli {
+    border-right: 1px solid #3c8dbc !important;
+    border-left: 1px solid #3c8dbc !important;
+    border-top: 1px solid #3c8dbc !important;
+    font-weight: bold;
+    background: #e6e6e6;
+    position: relative; 
+    color: #3c8dbc !important;
+}
+
+.selectedli a {
+	 color: #3c8dbc !important;
+}
+
+.floatleft {
+	float:left;
+}
+
+.bodyoverflow {
+	overflow:hidden;
+	    padding: 0px;
+}
+
+.the_dtr_view {
+	    width: 67%;
+    background: #ccc;
+    border-right: 1px solid #ccc;
+	min-height: 200px;
+}
+
+.the_dtr_view .content-wrapper{
+	margin-left:0px;
+}
+
+.the_dtr_details {
+	
+    background: #f1f1f1;
+}
+
+.leftdetails {
+	width: 33%;
+}
+
+.rewidth {
+	width: 1070px;
+	height: 100%;
+}
+
+.allowbtn {
+	margin: 0px;
+    background: #7cd6c9;
+    padding: 13px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btnholder {
+    width: 100%;
+    text-align: center;
+    padding: 22px 0px;
+    background: #e6ffed;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 2px 2px #e2dfdf;
+}
+
+.findingbtns {
+	    width: 140px;
+    padding: 7px;
+}
+
+.makecenter {
+	margin:auto;
+}
+
+#findingdiv {
+	
+}
+
+.findingdiv {
+	padding: 10px;
+	display:none;
+}
+
+.findingdiv p {
+	margin:0px 0px 4px;
+}
+
+.findingdiv p input[type='text'], 
+.findingdiv p textarea {
+	width:100%;
+}
+
+.thefindings {
+	    border: 1px dotted #a9a9a9;
+    padding: 12px;
+    margin-top: 18px;
+	    background: #f3f3f3;
+}
+
+.nofindingsyet {
+	text-decoration:italic;
+}
+
+#findingsul li {
+	list-style:numeric;
+}
+
+.removefindings {
+	    float: right;
+    font-size: 12px;
+    color: red;
+}
+
+.removefindings:hover {
+	cursor:pointer;
+	border-bottom:1px dotted;
+}
+
+#statustext {
+    text-align: center;
+    color: green;
+}
+
+.allapproved {
+	    margin: 7px 0px 0px 0px;
+    border: 1px solid #ccc;
+    background: #9effe0;
+    text-align: center;
+    padding: 10px;
+}
+
+.division_select {
+	padding: 1px 11px; 
+	/*border-bottom: 1px solid #ccc; */
+	overflow:hidden;
+}
+
+.division_drop {
+    padding: 0px;
+    position: absolute;
+    overflow: hidden;
+    height: 40px;
+    margin: 0px 0px 0px 110px;
+}
+
+.division_drop_hide {
+	position:relative;=
+	width: 500px;
+}
+
+.division_drop li {
+	    padding: 10px;
+    list-style: none;
+	
+}
+
+.division_drop a li{
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.division_drop li:hover {
+	background:#ccc;
+	cursor:pointer;
+}
+
+.division_drop a:last-child li {
+	border-bottom:0px;
+}
+
+.division_drop li:first-child:hover {
+	background:none;
+	cursor:normal;
+}
+
+.division_drop:hover{
+	height:auto;
+	background: #fff;
+    border: 1px solid #efefef;
+    box-shadow: 0px 3px 6px #ccc;
+}

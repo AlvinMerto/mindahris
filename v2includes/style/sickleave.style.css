@@ -1,0 +1,210 @@
+.formtable_style {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #333;
+}
+
+.formtable_style td {
+border-right: none;
+border-left: none;
+}
+
+.formtable_style td table tr td{
+	padding: 6px;
+}
+
+.formtable_style td:first-child {
+	border-right:1px solid lightblue;
+}
+
+.inputholder_ {
+
+}
+
+.formtable_style th p, .formtable_style td p {
+	margin:0px; 
+}
+
+.formtable_style table {
+	width:100%;
+	margin: 11px 0px;
+}
+
+.formtable_style td p:last-child {
+	border-bottom:1px solid #333;
+}
+ 
+.formtable_style table td input[type='text'] {
+	background:transparent;
+	width:100%;
+	border:0px;
+	border-bottom:1px solid lightblue;
+	outline:none;
+}
+
+.bordered_table {
+	border-collapse: collapse;
+}
+
+.bordered_table tbody tr th:first-child, 
+.bordered_table tbody tr td:first-child{
+	border-right:1px solid #333;
+}
+
+.bordered_table tbody tr th, .bordered_table tbody tr td {
+	border:1px solid #333;
+	padding: 11px;
+}
+
+.approved {
+text-align: center;
+    font-size: 26px;
+    padding: 0px;
+    color: green;
+    text-transform: uppercase;
+}
+
+.divisiontop {
+	border:0px;
+	height: 0px;
+	border-top: 5px dotted lightblue !important;
+}
+
+.divisionbottom {
+	border:0px;
+	height: 0px;
+	/*border-bottom: 5px dotted lightblue !important;*/
+}
+
+.divisionbottom tbody tr td {
+	text-align:center;
+}
+
+.divisionbottom tbody tr td p {
+	border:none;
+}
+
+.divisionbottom tbody tr td:first-child {
+	border-right:none !important;
+}	
+
+.applybtn {
+	    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.pbtn_sick{
+	    background: #add8e6;
+    float: left;
+    border: 1px solid #83adbb !important;
+    margin: 7px 0px !important;
+    padding: 6px;
+	cursor:pointer;
+}
+
+.other_dets_sick tr {
+	
+}
+
+.other_dets_sick tr td {
+	width: 50%;
+	text-align:left;
+	padding: 15px;
+}
+
+.other_dets_sick tr td p {
+	border:0px !important;
+}
+
+.sick_title {
+	font-size: 19px;
+text-align: center;
+padding: 6px 0px;
+font-weight: bold;
+}
+
+.sick_font_big {
+	font-size: 40px;
+}
+
+.sick-tbody td {
+	border-right:none !important;
+}
+
+.sick_thead tr th {
+padding: 14px;
+border-right: 1px solid #333;
+border-bottom: 1px solid #333;
+}
+
+.specs_vac  {
+	border-bottom: 1px solid #333;
+	padding: 10px 0px;
+}
+.thename {
+	font-size: 18px;
+}
+
+.signbox {
+	text-align: center;
+border: 1px solid #333;
+margin: 10px auto;
+}
+
+.official_title {
+	border:none !important;
+}
+
+.noborder_tds td{
+	border:0px !important;
+}
+
+.centertd {
+	text-align:center;
+}
+
+.line-div {
+	border-bottom:1px solid #333;
+	text-align:center;
+}
+
+.line-div p {
+	width: 24%;
+margin: 0px auto -1px !important;
+border-bottom: 1px solid lightblue !important;
+}
+
+.caption_td {
+float: left;
+border-bottom: 1px solid lightblue;
+margin-bottom: -1px !important;
+padding-right: 13px;
+}
+
+.namecaption {
+	border-bottom:0px !important;
+}
+
+.sickleave_form {
+background: lightblue;
+width: 75%;
+margin: auto;
+padding: 40px 60px;
+}
+
+.sigabovename {
+	border:0px !important;
+}
+
+  @page {
+    size: 8.5in 11in;
+	margin: 20px 0px 10px;
+  }
+
+  @media (max-width: 6in) {
+    @page {
+      size: landscape;
+    }
+  }

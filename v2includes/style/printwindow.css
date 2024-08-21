@@ -1,0 +1,32 @@
+* {
+	font-family:arial;
+	font-size:small;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+}
+
+table {
+	width:100%;
+	border-collapse:collapse;
+}
+
+table thead tr th:nth-child(1) > *,
+table thead tr th:nth-child(2) > *,
+table thead tr th:nth-child(3) > *,
+table thead tr:nth-child(2) th:last-child ,
+table tbody tr td:last-child ,
+#show_addleave,
+#printlink {
+	display:none !Important;
+}
+
+table thead tr th,
+table tbody tr td {
+	border:1px solid #333;
+	padding:5px;
+}
+
+@media print{@page {size: landscape}}

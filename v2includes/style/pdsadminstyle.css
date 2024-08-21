@@ -1,0 +1,131 @@
+.removemargin {
+	margin-left:0px !important;
+	margin-right:0px !important;
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+
+.fixedheight {
+	height: 45px;
+	position: relative;
+	background:#aab6b4;
+}
+
+.filterbox{
+    position: absolute;
+    z-index: 10000000000;
+    display: none;
+    background: #fff;
+    padding: 12px;
+    box-shadow: 0px 6px 9px #a29e9e;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px 7px 7px 7px;
+}
+
+.filterbox p {
+    font-size: 13px;	
+}
+
+.filterbox table {
+	font-size:13px;
+}
+
+.filterbox table tr td {
+	padding:5px;
+}
+
+.filterbox table tr td select {
+	width: 100%;
+    padding: 5px;
+}
+
+#applyfilter {
+	float:right;
+}
+
+.navigation {
+	background:#d0d6d5;
+	height:inherit;
+}
+
+#filterbtn {
+    background: #93d8d8;
+    height: 100%;
+    width: 99px;
+    border: 0px;
+	outline:none;
+}
+
+.trainingtbl {
+	width: 100%;
+	border-top: 8px solid #979797;
+}
+
+.trainingtbl th{
+	border: 1px solid #868484;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.trainingtbl tr{
+	
+}
+
+.trainingtbl tr td{
+	border: 1px solid #868484;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.empclick {
+    margin: 0px;
+    border: 1px solid #333;
+    background: #dedcdc;
+    padding: 7px;
+    font-size: 13px;
+	float:left;
+}
+
+.empclick:hover {
+	cursor:pointer;
+	background:#ccc;
+}
+
+.result {
+	
+}
+
+.result ul{
+	    margin: 0px;
+    padding: 0px;
+	
+}
+
+.result ul li ul {
+	margin: 15px;
+}
+
+.result ul li{
+list-style: none;
+    margin: -1px 0px 0px 0px;
+    padding: 5px 5px 5px 16px;
+    border: 1px solid #ccc;
+}
+
+.result ul li p {
+	margin:0px;
+}
+
+.result ul li:hover > p{
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.hidethis {
+	margin-left:20px;
+}
+
+.divclick {
+	margin:0px;
+}

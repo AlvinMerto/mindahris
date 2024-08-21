@@ -1,0 +1,228 @@
+/*navigation area*/
+	.navigation_area {
+		background: #61a3c9;
+		overflow: hidden;
+	}
+	
+	.navigation_area ul {
+		padding: 0px;
+		margin:0px;
+	}
+	
+	.navigation_area ul li{
+padding: 11px;
+margin: 0px 1px 0px 0px;
+list-style: none;
+display: inline-block;
+background: #8ecbef;
+font-size: 15px;
+float:right;
+	}
+	
+		.navigation_area ul li ul {
+			display:none;
+			position:absolute;
+			margin-left: -42px;
+			margin-top: 10px;
+			box-shadow: 0px 5px 5px #aaa;
+		}
+		
+		.navigation_area ul li ul li {
+			display:block !Important;
+			float:none !important;
+		}
+	
+	.navigation_area ul li:hover {
+		cursor:pointer;
+		background:#ccc;
+	}
+	
+	.navigation_area ul li:hover > ul {
+		display:block;
+	}
+/*end navigation*/
+
+.thename {
+	text-align: center;
+	font-size: 21px;
+}
+
+.namecaption {
+	text-align: center;
+}
+
+.form_wrapper_div {
+width: 75%;
+margin: auto;
+background: #ffbfca;
+padding: 53px 85px;
+}
+
+.formtable_style {
+margin: auto;
+border: 1px solid #333333;
+width:100%;
+border-collapse:collapse;
+}
+
+.formtable_style table {
+		border-collapse:collapse;
+}
+
+.formtable_style th {
+	padding: 10px;
+	border-bottom: 1px solid #8f8f8f;
+}
+
+.formtable_style tr {
+	
+}
+
+.formtable_style tr td:last-child {
+	
+}
+
+.noborder_tds td{
+	border:0px !important;
+}
+
+.formtable_style tr td { 
+	border-bottom: 1px solid #686868;
+	border-top: 1px solid #686868;
+	vertical-align:top;
+ /*	border-right: 1px solid pink;*/
+
+}
+
+.divisionbottom {
+	width: 100%;
+}
+
+.divisionbottom p{
+	margin:0px;
+}
+
+.divisionbottom  tr td {
+	padding:0px 0px 0px 10px;
+}
+
+.bordered_table {
+width: 100%;
+margin: 15px 0px;
+}
+
+.bordered_table td:last-child, 
+.bordered_table th:last-child {
+	border-right:0px;
+	/*border-bottom: 0px */
+}
+
+.bordered_table td, .bordered_table th {
+padding: 7px !important;
+border-top: 1px solid #333333;
+border-bottom: 1px solid #333333;
+border-right: 1px solid #333;
+}
+
+.emp_details_table {
+	width:100%;
+}
+
+.emp_details_table td {
+	border:0px !Important;
+	border-right:0px !important;
+	padding: 5px 13px;
+}
+
+.emp_details_table td p{
+	margin:0px;
+padding: 0px 0px;
+}
+
+.emp_details_table td p:last-child {
+	border-bottom:1px solid #333;
+}
+
+.signature_pic {
+	display: table;
+	margin: auto;
+}
+
+.sigabovename {
+	text-align:center;
+	/*margin-top: 80px; */
+}
+
+.hr_class {
+	padding: 15px !important;
+}
+
+.caption_td {
+	float:left;
+padding-right: 20px !important;
+	border-bottom: 1px solid pink;
+}
+
+.head_type {
+	text-align: center;
+border-bottom: 0px !important;
+}
+
+.inside_table_td {
+	width: 100%;
+}
+
+.inside_table_td tr td{
+	border:0px !Important;
+}
+
+.specs_vac {
+border-bottom: 1px solid #333;
+text-align:left;
+}
+
+.disapp_due_to {
+	border-bottom:1px solid #333;
+	margin-top: 17px !important;
+}
+
+.action_on_app_tbl {
+text-align: center;
+border: 1px solid #333;
+margin: 12px 18px;
+padding: 10px 0px 5px;
+}
+
+.centertd {
+	text-align:center;
+}
+
+.line-div {
+	border-bottom:1px solid #333;
+	text-align:center;
+}
+
+.line-div p {
+border-bottom: 1px solid pink;
+margin: 0px auto -1px;
+width: 25%;
+padding: 0px 5px;
+}
+
+.official_title {
+border-top: 1px solid #333;
+width: 70%;
+margin: auto !important;
+}
+
+
+  @page {
+    size: 8.5in 11in;
+	margin: 20px 0px 10px;
+  }
+
+  @media (max-width: 6in) {
+    @page {
+      size: landscape;
+    }
+  }

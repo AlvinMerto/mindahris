@@ -1,0 +1,99 @@
+.tableutil {
+	border-collapse:collapse;
+	width:100%;
+}
+
+.tableutil tr td {
+	border:1px solid #ccc;
+	padding: 3px;
+}
+
+.tableutil th {
+background: #d7d7d7;
+font-size: 14px;
+font-weight: normal;
+padding:5px;
+border-right: 1px solid #b3b3b3;
+border-top: 1px solid #b3b3b3;
+border-left: 1px solid #b3b3b3;
+}
+
+.tableutil tr:nth-child(even) {
+	background:#fff;
+}
+
+.tableutil tr:hover {
+	background:#c1c1c1;
+	cursor:pointer;
+}
+
+.buttonholder {
+	margin-bottom: 10px;
+}
+
+.cancelbtn {
+	float:right;
+}
+
+#searchbtn {
+	
+}
+
+#popupwrap {
+	margin-bottom:10px;
+}
+
+.addnewtbl {
+	margin-bottom: 10px;
+	position: absolute;
+	background: #fff;
+	box-shadow: 0px 3px 3px #b3b3b3;
+	width: 60%;
+	margin-top: -7px;
+}
+
+.addnewtbl tr td{
+	padding:3px;
+    vertical-align: top;
+	border: 1px solid #a4a1a1;
+}
+
+.addnewtbl tr td input[type='text'], 
+.addnewtbl tr td input[type='date'], 
+.addnewtbl tr td textarea,
+.addnewtbl tr td select{
+	width:100%;
+	border:none;
+	padding: 10px;
+	background: transparent;
+}
+
+.addnewtbl tr th{
+	padding:5px;
+	border: 1px solid #a4a1a1;
+	background: #ccc;
+	width:10%;
+}
+
+#savenewentry, #closeentry{
+	float: left;
+	margin: 6px 2px;	
+}
+
+.forcancel {
+	background:#ca5c6f !important;
+	color:#fff !important;
+}
+
+.cancelled {
+	background: #864747 !important;
+	color: #fff !important;
+}
+
+.thetotext {
+	margin: 0px;
+font-weight: bold;
+font-size: 16px;
+margin-left: 10px;
+padding: 6px;
+}

@@ -1,0 +1,133 @@
+#element_loader .content-wrapper {
+	margin:0px !important;
+}
+
+.content-wrapper {
+	/*background:#dadada; */
+	background:#fff;
+	padding-top:13px;
+}
+
+.content-header {
+	    padding-top: 17px;
+    padding-bottom: 7px;
+	/*display:none; */
+}
+
+.new_navigation {
+	margin: 0px;
+    float: left;
+    padding: 0px;
+}
+
+.new_navigation li {
+    display: inline-block;
+    list-style: none;
+    padding: 13px;
+    color: #bae6ff;
+    margin-left: -2px;
+    border-right: 1px solid #68acd4;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.new_navigation li span {
+font-size: 13px;
+    position: relative;
+    top: -1px;
+	text-transform: capitalize;
+}
+
+.new_navigation li:last-child {
+	/*border:none; */
+}
+
+.new_navigation li:hover {
+	color:#333;
+}
+
+.new_navigation li:hover {
+	cursor:pointer;
+	background:#f1f1f1;
+}
+
+.new_navigation li a {
+	background: #ccc;
+    padding: 16px 0px;
+	text-transform:uppercase;
+}
+
+#hradmin {
+ 
+}
+
+.resetdtrbtn {
+	margin: 0px; text-align: center; padding: 8px; background: #ff5858;
+}
+
+.resetdtrbtn:hover {
+	background: #ad1b1b;
+}
+
+.marginleft {
+	margin-left: 230px !important;
+}
+
+.getmarginleft {
+	margin-left:0px !important;
+}
+
+#statustext {
+    margin: 24px 0px 14px 0px;
+    font-size: 14.1px;
+    color: #828282;
+}
+
+#btnpush {
+	width: 5%;
+}
+/* mobile responsive css style*/
+ @media only screen and (max-width: 1000px) {
+		.new_navigation {
+			/* width:100%; */
+		}
+		
+		.new_navigation li span {
+			display:none;
+		}
+		
+	}
+	
+ @media only screen and (max-width: 766px) {
+		.content-wrapper {
+			margin-left:0px !important;
+		}
+		
+		.notification_div {
+			width: 100% !important;
+			left: 0px;
+		}
+		
+		
+ }
+ 
+  @media only screen and (max-width: 990px) {
+	.small_width {
+			width:100% !Important;
+		}
+  }
+ 
+ @media only screen and (max-width: 480px) {
+		.content-wrapper {
+			margin-left:0px !important;
+		}
+		
+		#rightfloatwindow {
+			width:95% !important;
+		}
+		
+		
+ }
+
+	
+/* end mobile responsive css style */

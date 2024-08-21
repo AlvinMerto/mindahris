@@ -1,0 +1,91 @@
+.otaccombox {
+padding: 12px 40px;
+    border: 1px solid #ccc;
+    width: 63%;
+    margin: 20px auto;
+}
+
+.headerbox {
+	
+}
+
+.headerbox p{
+	text-align:center;
+	margin:0px;
+}
+
+.compname {
+    font-size: 20px;
+    font-family: georgia;
+    margin-top: -5px !important;
+    margin-bottom: -3px !important;
+}
+
+.countryname {
+	    font-family: georgia;
+    font-size: 16px;
+}
+
+.regname {
+	font-family: georgia;
+    font-style: italic;
+}
+
+.contentbox {
+	
+}
+
+.contentbox .emp_info_tbl{
+	width:100%;
+	margin: 15px 0px 0px 0px;
+}
+
+.contentbox .emp_info_tbl tr {
+	
+}
+
+.contentbox .emp_info_tbl tr td{
+	
+}
+
+.contentbox .emp_info_tbl tr td:last-child{
+	text-align:right;
+}
+
+.det_table {
+	
+}
+
+.det_table table{
+	width:100%;
+}
+
+.det_table table tr {
+	
+}
+
+.det_table table tr td{
+    border: 1px solid #ccc;
+    padding: 3px 9px;
+    text-align: center;
+}
+
+.det_footer_tbl {
+	
+}
+
+.det_footer_tbl table{
+	width:100%;
+}
+
+.det_footer_tbl table tr {
+	
+}
+
+.det_footer_tbl table tr td{
+	vertical-align:top;
+}
+
+.signature_emp {
+	float: right;
+}

@@ -1,0 +1,242 @@
+
+.selected_icon, .not_selected_icon {
+	text-align: center;
+font-size: 30px;
+}
+
+.selected_icon:before {
+	font-family:FontAwesome;
+	content: '\f046';
+}
+
+.not_selected_icon:before{
+	font-family:FontAwesome;
+	content: '\f096';
+}
+
+.spl_table tbody tr td table tr td {
+text-align: center;
+font-size: 13px;
+padding: 10px;
+}
+
+.spl_table tbody tr td table tr td label strong {
+	font-size:15px;
+}
+
+.spl_table tbody tr td {
+	border-right: 1px solid #333;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	vertical-align:top;
+}
+
+.spl_table tbody tr td table tr td {
+	border:none;
+}
+
+.spl_table tbody tr td:last-child {
+	border-right:none;
+}
+
+.spl_table p {
+margin: 0px;
+padding: 10px;
+}
+
+.spl_wrap {
+	width: 80%;
+margin: auto;
+background: #f2f2b1;
+padding: 45px 0px 0px;
+}
+
+.spl_wrap table {
+	/*
+	width: 90%;
+margin: 0px auto -1px;
+border: 1px solid #333;
+*/
+}
+
+.hoverclass {
+	border-bottom:1px solid #333;
+}
+
+.repphil {
+	text-align: center;
+font-size: 16px;
+margin:0px;
+}
+
+.mda {
+	text-align: center;
+font-size: 25px;
+margin:0px;
+}
+
+.regs {
+	text-align: center;
+font-size: 13px;
+margin: 0px;
+}
+
+.spl_table {
+border: 1px solid #f2f2b1;
+}
+
+.nametxt {
+padding: 0px 10px !important;
+font-size: 18px;
+text-align: center;
+font-weight: bold;
+}
+
+.lbl_caption {
+font-size: 16px;
+text-align: center;
+padding: 0px !important;
+}
+
+.tabletitle p {
+	text-align: center;
+padding: 0px;
+}
+
+.tabletitle {
+	padding: 15px 0px;
+}
+
+.doa {
+	letter-spacing: 13px;
+font-size: 19px;
+}
+
+.doa_det {
+	font-size: 21px;
+}
+
+.scnd_tbl_lbl {
+padding: 0px 10px 7px !important;
+font-size: 18px;
+font-weight: bold;
+}
+
+.scnd_tbl_lbl_head {
+	padding-bottom:0px !important;
+}
+
+.center_doms {
+	
+}
+
+.center_doms td{
+	text-align: center;
+}
+
+.act_on_app {
+	letter-spacing: 9px;
+font-size: 17px;
+text-align: center;
+}
+
+.table_footer {
+	width: 100%;
+	margin-top:-1px;
+}
+
+.table_footer tr {
+	
+}
+
+.table_footer tr td {
+	padding:10px;
+	vertical-align: top;
+	text-align:center;
+	border-right:1px solid #333;
+	border-bottom:1px solid #333;
+	border-top: 1px solid #333;
+}
+
+.table_footer tr td:last-child {
+	border-right:none;
+}
+
+.__statuslbl {
+	font-size: 18px;
+	text-align: left;
+	width: 90%;
+margin: auto;
+}
+
+.__statuslbl p {
+	font-size: 15px;
+font-weight: bold;
+}
+
+.div_sig {
+	width: 50%;
+margin: 0px auto 25px;
+border-top: 1px solid #333;
+font-weight: bold;
+}
+
+.div_lbl {
+	width: 50%;
+margin: 0px auto 25px;
+	border-top: 1px solid #333;
+}
+
+.statusofspl {
+position: relative;
+height: 250px;
+}
+.approvedhr {
+	position: absolute;
+bottom: 0px;
+width: 100%;
+}
+
+.dis_ap_text {
+	font-size: 20px;
+margin: 0px;
+}
+
+.dis_ap_span {
+	font-size:16px;
+	border-bottom: 1px solid #333;
+}
+
+.tbl_approvals {
+	
+}
+
+.tbl_approvals td{
+	vertical-align:middle !important;
+}
+
+.last_app_off {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.table_wrap_spl {
+border: 1px solid #333;
+width: 90%;
+margin: 50px auto 0px;
+border-top: 0px;
+}
+
+  @page {
+    size: 8.5in 11in;
+	margin: 20px 0px 10px;
+	/*size: letter;
+	page-break-after: always; /* experimental */
+	
+  }
+
+  @media (max-width: 6in) {
+    @page {
+      size: letter;
+    }
+  }

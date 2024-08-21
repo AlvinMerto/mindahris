@@ -1,0 +1,15 @@
+.uploader_div {
+	border-bottom: 2px dotted #ccc; 
+    padding: 0px 0px 20px 0px;
+}
+
+.up_text_head {
+	margin:0px;
+}
+
+#uploadthefiles {
+    margin: 5px 0px 0px 0px;
+}
+
+.uploadfile_btn {
+}

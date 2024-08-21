@@ -1,0 +1,518 @@
+* {
+	padding:0px;
+	margin:0px;
+	font-family: arial;
+	line-height: 17px;
+	border-collapse: collapse;
+}
+
+.pdswrap {
+	border: 3px solid #333;
+	margin: 2px auto 500PX;
+	/*width: 55%; */
+	/*width:8.5in; */
+	/*height:14in; */
+	
+	width:70%;
+}
+
+.headwrap {
+
+}
+
+.cf {
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.revnum {
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.pdswrap h3 {
+	text-align: center;
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+
+.war {
+	font-size: 11px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.g1 {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.plholder {
+
+}
+
+.pl {
+	font-size: 9px;
+}
+
+.pl .csid {
+	
+}
+
+.pl .csid small{
+	
+}
+
+.pl .csid i {
+	background: #797878;
+	padding: 2px;
+}
+
+.df {
+	/*margin-left: 115px;*/
+	margin-left:30px;
+}
+
+.pl g {
+	margin-left: 10px;
+	border: 1px solid #ccc;
+}
+
+.bodywrap {
+
+}
+
+.bodywrap h4{
+	font-size: 12px;
+	background: #333;
+	color: #fff;
+	font-style: italic;
+}
+
+
+.pnew1 {
+	width: 100%;
+}
+
+.pnew1 tr td {
+	font-size: 9px;
+	border: 1px solid #333;
+	padding-left: 4px;
+}
+
+.pnew1 tr td:nth-child(1) {
+	width: 15px;
+}
+
+.pnew1 tr td:nth-child(2) {
+	width: 15%;
+}
+
+.centerit {
+	text-align: center !important;
+}
+
+.vertbot {
+	vertical-align: bottom;
+}
+
+.verttop {
+	vertical-align: top;
+}
+
+.botcap{
+	border-top:1px solid;
+}
+
+.botcap g{
+	padding: 0px 15px;
+}
+
+.pi1 {
+	width:100%;
+}
+
+.pi1 tr {
+	
+}
+
+.pi1 tr td{
+	font-size: 9px;
+	border: 1px solid #333;
+	padding-left: 4px;
+}
+
+.pi1 tr td:nth-child(1) {
+	vertical-align: top;
+	width: 2%;
+}
+
+.pi1 tr td:nth-child(2) {
+	/*width: 15%; */
+}
+
+.pi1 tr td:nth-child(3) {
+	/*width: 40%; */
+}
+
+.shorttd {
+	vertical-align: top;
+	padding: 0px !important;
+}
+
+.innertbl {
+
+}
+
+.innertbl tr {
+	
+}
+
+.innertbl tr td{
+	border: none;
+}
+
+.innertbl .innertbl tr td {
+	padding: 5px;
+	border:0px;
+	border-right: 1px solid #333;
+}
+
+.innertbl .innertbl tr td:last-child {
+	border:none;
+}
+
+.ftbl {
+	vertical-align: top;
+	padding: 0px !important;
+}
+
+.paddme {
+	padding:4px;
+}
+
+.paddleft {
+	padding-left:4px !important;
+}
+
+.paddright {
+	padding-right:4px !important;
+}
+
+.border_r {
+	border-right:1px solid !important;
+}
+
+.border_b {
+	border-bottom:1px solid !important;
+}
+
+.border_t {
+	border-top:1px solid !important;
+}
+
+.border_l {
+	border-left:1px solid !important;
+}
+
+.twotdtbl {
+	width: 100%;
+}
+
+.twotdtbl tr td {
+	width: 50% !important;
+	border: none !important;
+}
+
+.getborderright tr td{
+	border-right:none !important;
+}
+
+.getborderright tr td:last-child {
+	border-right:inherit;
+}
+
+.centerit tr td{
+	text-align:center !important;
+}
+
+.captiontr td {
+	padding:0px !important;
+}
+
+.halftd td{
+	width:50% !important;
+}
+
+.fulltbl {
+	width:100% !important;
+}
+
+.insertdiv {
+
+}
+
+.insertdiv p {
+	margin: 0px;
+}
+
+.floarright {
+	float:right;
+}
+
+.pi2 {
+	width: 100%;
+	margin:auto;
+}
+
+.pi2 tr th{
+	/*
+	font-size: 12px;
+font-weight: normal;
+border-right: 1px solid;
+border-bottom: 1px solid; 
+padding: 0px 6px;
+*/
+    font-size: 10px;
+    font-weight: 600;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+
+.marginit {
+	width:70%;
+	margin:auto;
+	border: 2px solid #333;
+}
+
+.pi2 tr td {
+
+}
+
+.remborr{
+	border-right:none !important;
+}
+
+.rempad {
+	padding: 0px !important;
+}
+
+.pi3 {
+	width: 70%;
+	border: 1px solid #a7a7a7;
+	margin:auto;
+}
+
+.pi3 tr td{
+	/*
+	font-size: 13px;
+	padding: 7px;
+	vertical-align: top;
+	*/
+	font-size: 10px;
+    padding: 2px;
+    vertical-align: top;
+}
+
+.pi3 tr td:nth-child(2){
+	/*width: 628px; */
+	/* width: 35%; */
+	width: 65%;
+}
+
+.pi3 tr td:nth-child(1){
+	width: 10px;
+}
+
+.detailsdiv {
+	width: 100%;
+	padding: 0px 0px;
+}
+
+.pi4 {
+	width:70%;
+	margin:auto;
+}
+
+.pi4 tr td {
+	/*
+border: 1px solid;
+font-size: 13px;
+padding: 4px;
+	*/
+	border: 1px solid;
+    font-size: 10px;
+    padding: 2px;
+}
+
+.intbl {
+	width:100%;
+}
+
+.idpicture {
+	width:2in;
+	/*height:2in;*/
+	/*
+	height: 4.5cm;
+	width: 3.5cm;
+	*/
+	border: 1px solid;
+	margin: 2px auto 0px;
+}
+
+.idpicture p{
+	width: 60%;
+	margin: 32px auto;
+	/*padding: 60px 0px;*/
+	font-size: 11px;
+	text-align: center;
+}
+
+.govid {
+
+}
+
+.govid p{
+	
+}
+
+.govid p span{
+	font-weight:bold;
+}
+
+.signdiv {
+position: relative;
+}
+
+.signdiv p{
+	font-size: 10px;
+padding: 0px !important;
+}
+
+.inbelowtbl {
+
+}
+
+.inbelowtbl td{
+	width: 50%;
+border: none !Important;
+}
+
+.inbelowtbl td div {
+border: 2px solid #333;
+margin: 5px;
+height: 123px;
+}
+
+.inbelowtbl td div p {
+	/*
+	padding: 4px;
+border-bottom: 1px solid;
+border-top: 1px solid;
+margin-top: -1px;
+*/
+    padding: 2px 4px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    margin-top: -1px;
+}
+
+.rthumb {
+	/*
+width: 2in;
+height: 1in;
+border: 1px solid;
+margin: 10px auto;
+position: relative;
+*/
+width: 2in;
+height: 109px;
+border: 1px solid;
+margin: 10px auto;
+position: relative;
+}
+
+.rthumb p{
+	position: absolute;
+bottom: 0px;
+border-top: 1px solid;
+border-bottom: 1px solid;
+width: 100%;
+text-align: center;
+font-size: 11px;
+}
+
+.signbotdiv {
+position: absolute;
+bottom: 0px;
+margin: 0px !important;
+border: none !Important;
+width: 100%;
+height: auto !important;
+text-align: center;
+}
+
+
+.pao {
+	width: 30%;
+	margin: 15px auto 7px;
+	border: 2px solid #333;
+	position: relative;
+	height:95px;
+}
+
+.pao p {
+text-align: center;
+position: absolute;
+bottom: 0px;
+width: 100%;
+}
+
+.sworntxt {
+	text-align: center;
+	margin: 10px 0px 0px;
+}
+
+.sworntxt span {
+	padding: 0px 9%;
+}
+
+.paddtop {
+	padding-top: 6px;
+}
+
+.educbgtd td{
+font-size: 11px;
+/*
+padding-left: 3px;
+padding-right: 3px;
+*/
+text-align:center;
+}
+
+.width50px{
+	width:200px !important;
+}
+
+.bgme {
+	background: #ccc !important;
+}
+
+@media print {
+	body {
+		/*
+		margin-top:   	0.25in;
+		margin-left: 	0.14in;
+		margin-right:  	0.14in;
+		margin-bottom: 	0.6in;
+		*/
+		margin-top:		0in;
+		margin-bottom: 	0.39in;
+	}
+	
+	.page_break  { 
+		display:block; 
+		page-break-before:always; 
+	}
+}

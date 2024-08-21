@@ -1,0 +1,2 @@
+var isadmin;
+var isowner;

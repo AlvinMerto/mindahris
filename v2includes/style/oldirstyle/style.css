@@ -1,0 +1,394 @@
+html {
+	font-size: 36px;
+}
+
+body {
+	font-family: calibri;
+	overflow: hidden;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapwhole {
+	display: flex;
+	height: 100%;
+}
+
+h5 {
+	font-size: .7rem;
+}
+
+h6 {
+	font-size: .5rem;
+font-weight: normal;
+}
+
+.leftwrap {
+	height: 100%;
+	width: 12%;
+}
+
+.logodiv {
+	padding: 16px;
+}
+
+.leftnavigation {
+	height: 100%;
+}
+
+.leftnavigation ul{
+	
+}
+
+.leftnavigation ul li{
+text-align: right;
+list-style: none;
+font-size: .6rem;
+border-bottom: 1px solid #ccc;
+padding: 15px 15px 15px 0px;
+color: #686666;
+}
+
+.leftnavigation ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.leftnavigation ul li:last-child {
+	border: none;
+}
+
+.leftnavigation ul li:hover {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.leftnavigation ul li i {
+	font-size: 17px;
+color: #b0b0b0;
+font-weight: normal;
+margin-left: 8px;
+}
+
+.right-top-wrap {
+	display: flex;
+padding: 0px 9px;
+border-bottom: 1px solid #ccc;
+}
+
+.filter-top-wrap {
+
+}
+
+.filter-top-label {
+	padding-left: 14px;
+	margin-top: 13px;
+}
+
+.rightwrap {
+	width: 100%;
+	border-left: 1px solid #ccc;
+}
+
+.filter-box {
+border: 1px solid #ccc;
+margin: 8px 0px;
+height: 31px;
+border-radius: 3px;
+}
+
+.filter-box i{
+	font-size: .5rem;
+padding: 0px 11px;
+color: #8e8e8e;
+}
+
+.filter-box i:before {
+	top: -12px;
+	position: relative;
+}
+
+.right-navigation-wrap {
+border-bottom: 1px solid #ccc;
+}
+
+.right-navigation-wrap ul{
+	margin-top: -3px;
+	/*padding-left: 49px; */
+	/* padding-bottom: 6px; */
+	margin-bottom: -1px;
+}
+
+.right-navigation-wrap ul li{
+	list-style: none;
+display: inline-block;
+font-size: .5rem;
+padding: 15px 15px;
+font-weight: bold;
+}
+
+.right-navigation-wrap ul li a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.right-navigation-wrap ul li:hover {
+	cursor: pointer;
+	color: #4d9097;
+}
+
+.right-filter-wrap {
+	display: flex;
+	border-bottom: 1px solid #ccc;
+}
+
+.rightfilter {
+
+}
+
+.thefilterbutton {
+padding: 1px 10px;
+margin: 15px 9px 9px;
+border: 10px solid transparent;
+border-radius: 3px;
+color: #8e8e8e;
+}
+
+.thefilterbutton:hover {
+	/*
+	cursor: pointer;
+	background: #e3e3e3;
+	*/
+}
+
+.thefilterbutton i {
+	font-size: .7rem;
+}
+
+.thesearch h6 {
+    margin-top: 7px;
+    margin-bottom: -6px;
+}
+
+.thesearch {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width:100%;
+}
+
+.thesearchinputs input[type='text'] {
+padding: 11px;
+    border: 1px solid #ccc;
+    width: 40%;
+	position:relative;
+	z-index:10000;
+}
+
+
+.right-thecontent {
+
+}
+
+.right-thecontent {
+	overflow: auto;
+}
+.right-thecontent table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.right-thecontent table thead th{
+	font-size: .4rem;
+padding: 10px 20px;
+	text-align:left;
+}
+
+.right-thecontent table thead tr {
+	border-bottom: 1px solid #ccc;
+}
+
+.right-thecontent table tbody tr {
+	border-bottom: 1px solid #ccc;
+}
+
+.right-thecontent table tbody tr:nth-child(2n+1) {
+	background: #ececec;
+}
+
+.right-thecontent table tbody tr td {
+	font-size: .4rem;
+	font-weight: normal;
+	text-align: left;
+	padding: 10px 10px;
+	
+	max-width: 50px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.right-thecontent table tbody tr td:first-child {
+	/*padding-left:10px;*/
+}
+
+.right-thecontent table tbody tr:hover {
+	background: #d2d2d2;
+}
+
+.right-thecontent table tbody tr td button {
+	padding: 5px 13px;
+}
+
+.selecteddiv {
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #fff;
+	border-radius: 3px 3px 0px 0px;
+	box-shadow: 0px -3px 3px #9f9f9f;
+}
+
+.selectedoffice {
+	background: #dbfff3;
+}
+
+.hidethis {
+	display: none !important;
+}
+
+.ellips {
+	cursor: pointer;
+}
+
+.ellips:hover {
+	font-weight: bold !important;
+}
+
+.blacker {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.66);
+	top: 0;
+	display: flex;
+	justify-content: center;
+	z-index:10000;
+}
+
+#popupwhite {
+	top: 0;
+	background: #fff;
+	margin-top: 20px;
+	width: 60%;
+	height: 90%;
+	border-radius: 10px;
+}
+
+#popupwhite table {
+	border-collapse: collapse;
+	width: 100%;
+	background:#fff;
+}
+
+#popupwhite table tr {
+	
+}
+
+#popupwhite table tr td,
+#popupwhite table tr th{
+	font-size: .4rem;
+	padding: 1px 10px;
+}
+
+#popupwhite table tr td {
+	padding: 7px 12px;
+}
+
+#popupwhite table tr th {
+	width: 120px;
+	text-align: right;
+	padding: 6px;
+	font-weight: bold;
+	background: #dfdfdf;
+}
+
+#popupwhite table tr:nth-child(2n+1) {
+	background: #f5f5f5;
+}
+
+.thepopupcontent {
+	border-top: 1px solid #ccc;
+}
+
+.thepopupcontent thead th{
+text-align: left !important;
+padding: 11px !important;
+}
+
+.thepopupcontent thead th,
+.thepopupcontent tbody tr{
+	border-bottom: 1px solid #ccc;
+}
+
+#contentpop {
+	overflow: auto;
+}
+
+#contenttop {
+	padding: 10px;
+}
+
+.filtbtn {
+	padding: 5px 13px;
+}
+
+.filterbtn {
+	padding: 11px;
+    margin-left: -10px;
+    border-radius: 0px 3px 3px 0px;
+    border: 1px solid #ccc;
+}
+
+.filterbtn:hover {
+	box-shadow: 2px 0px 4px #c3c3c3;
+	transition: box-shadow .5s;
+	-webkit-transition: box-shadow .5s;
+}
+
+.searchsel {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0px 0px 4px;
+    margin-right: -9px;
+	background: #f9f9f9;
+	outline:none;
+}
+
+.searchsel:hover {
+	box-shadow: 2px 0px 4px #c3c3c3;
+	transition: box-shadow .5s;
+	-webkit-transition: box-shadow .5s;
+}
+
+.searchsel:focus {
+	background:#dfdfdf;
+}
+
+.thefilters {
+	display:flex;
+}
+
+.filteroption {
+	
+}
+
+.filteroption label {
+	font-size:.4rem;
+}
+
+.filteroption input[type='checkbox'] {
+	
+}

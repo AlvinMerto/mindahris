@@ -1,0 +1,61 @@
+.cto_ot_tbl {
+width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0px 3px 3px #b5b5b5;
+    border-bottom: 2px solid #fff;
+}
+
+.cto_ot_tbl tr th{
+border: 1px solid #ccc;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    /*background: #dce7ec; */
+}
+
+.cto_ot_tbl tr td {
+	text-align:center;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+.otcto_text {
+	font-size: 18px;
+    text-align: left;
+    background: #96d0f1;
+    padding:10px;
+	margin:0px;
+	font-weight:bold;
+	border-bottom:1px solid #65b4e0;
+}
+
+#thename {
+    font-size: 21px;
+	padding:10px;
+	text-align:left;
+}
+
+#tbody_contents tr:first-child{
+	background: #f1f5b1;
+}
+
+#tbody_contents tr:first-child td:nth-child(16) {
+	background: #fff70a;
+	font-weight:bold;
+}
+
+#tbody_contents tr:hover {
+	background: #efefef;
+	cursor:pointer;
+}
+
+.overtimeclass {
+	background: #e8e8e8; 
+	font-weight: bold;
+}
+
+.ctoclass {
+	background: #ddfff4;
+	font-weight: bold;
+}
